@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import myntra from "./myntra.png";
 import shopping_cart from "./shopping_cart.png";
-import tripguide from "./tripguide.png";
+import chat from "./chat.png";
 
 export {
   logo,
@@ -58,5 +58,5 @@ export {
   tesla,
   myntra,
   shopping_cart,
-  tripguide,
+  chat,
 };

@@ -21,7 +21,7 @@ import {
   shopify,
   myntra,
   shopping_cart,
-  tripguide,
+  chat,
   // threejs,
 } from "../assets";
 
@@ -219,6 +219,27 @@ const projects = [
     source_code_link: "https://github.com/jainiljain31/myntra-clone",
   },
   {
+    name: "Chat App",
+    description:
+      "Built a real-time chat app using React.js and Firebase, featuring one-to-one messaging, secure login/sign-up with Firebase Authentication, and a search functionality for finding users efficiently. Utilized Firestore for real-time updates and database management, ensuring seamless user interactions.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chat,
+    source_code_link: "https://github.com/jainiljain31/chat-app",
+  },
+  {
     name: "Shopping-Cart",
     description:
       "I built a fully functional shopping cart application using React.js for efficient UI management and Tailwind CSS for responsive, modern styling. The app allows users to browse products, add items to the cart. This project demonstrates my expertise in  responsive design using cutting-edge technologies.",
@@ -239,27 +260,7 @@ const projects = [
     image: shopping_cart,
     source_code_link: "https://github.com/jainiljain31/shopping-cart",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
